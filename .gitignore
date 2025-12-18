@@ -1,0 +1,13 @@
+# 忽略编译出来的二进制文件夹
+bin/
+obj/
+
+# 忽略 IDE 的布局和用户配置文件
+*.layout
+*.depend
+
+# 忽略 Windows 的可执行文件 (双保险)
+*.exe
+
+# 如果你以后用 VS Code，也可以加上这个
+.vscode/
